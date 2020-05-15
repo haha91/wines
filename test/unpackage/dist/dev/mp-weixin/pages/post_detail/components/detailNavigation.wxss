@@ -1,0 +1,21 @@
+.nav_box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	height:100%;
+	width:100%;
+	line-height: 35px;
+}
+.nav_box text{
+	display: block;
+	font-size: 30rpx;
+	width:50%;
+	text-align: center;
+}
+.actived{
+	border-bottom: 6rpx solid #3d3;
+}
+

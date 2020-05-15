@@ -1,0 +1,36 @@
+.userInfo{
+	width:100%;
+	height:130px;
+}
+.userIcon{
+	width:80px;
+	height:80px;
+	
+	margin:0 auto;
+}
+.userIcon image{
+	width:100%;
+	height:100%;
+	border-radius: calc(100%/2);
+}
+.loginButton{
+	width:80px;
+	height:46px;
+	
+	margin:0 auto;
+}
+.loginButton button{
+	
+	background-color: rgba(255,255,255,0.1);
+}
+.login{
+	width:100%;
+	height:100%;
+}
+.user_nickName{
+	width:100%;
+	height:46px;
+	text-align: center;
+	margin:0 auto;
+}
+

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myaccount/components/myPost",
+    "pages/post/components/upload",
+    "pages/myaccount/index",
+    "pages/post/index",
+    "pages/categories/index",
+    "pages/shop/index",
+    "pages/wine_detail/wine_detail",
+    "pages/post_detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "九品九",
+    "navigationBarBackgroundColor": "#F1F1F1",
+    "backgroundColor": "#eeebe7"
+  },
+  "tabBar": {
+    "color": "#f5ba18",
+    "selectedColor": "#F1F1F1",
+    "backgroundColor": "#F1F1F1",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/homepage.png",
+        "selectedIconPath": "static/icon/homepage_Selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myaccount/index",
+        "iconPath": "static/icon/myaccount.png",
+        "selectedIconPath": "static/icon/myaccount_Selected.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/post/index",
+        "iconPath": "static/icon/share.png",
+        "selectedIconPath": "static/icon/share_Selected.png",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/categories/index",
+        "iconPath": "static/icon/wine_List.png",
+        "selectedIconPath": "static/icon/wine_List_Selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/wine_detail/wine_detail",
+        "iconPath": "./static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart_Selected.png",
+        "text": "wine"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,60 @@
+.wine_detail_img{
+	width:100%;
+	height:2000px;
+	background-color:red;
+}
+.wine_description_box{
+	width:100%;
+	height:200px;
+	background-color: #4CD964;
+	position: relative;
+}
+.level_box{
+	
+	width:50%;
+	height: calc(100%/4);
+	background-color: #007AFF;
+	
+}
+.level{
+	width:20%;
+	height:100%;
+	float: left;
+}
+.level image{
+	width:100%;
+	height:100%;
+}
+#Tannic{
+	margin-top: 20px;
+}
+#Alcohol{
+	margin-top:20px;
+}
+.fix_position{
+	position:fixed;
+	width:100%;
+	height:50px;
+	bottom:0;
+}
+.bottom_spec{
+	width: 100%;
+	height: 100px;
+}
+.user_comment_box{
+	width:100%;
+	
+}
+.user_comment_detail{
+	width:100%;
+	height:auto;
+	
+	word-break: break-all;
+	padding-bottom:5px;
+}
+.red{
+	background-color: rgba(232,122,144,0.15);
+}
+.white{
+	background-color: rgba(238,235,231,0.15);
+}

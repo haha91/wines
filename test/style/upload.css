@@ -1,0 +1,143 @@
+.upload{
+	padding-top: 10px;
+	position: relative;
+}
+.classify_view_box{
+	width: 100px;
+	height:40px;
+	background-color:#2C405A;
+	float:left;
+	margin-left:10px ;
+}
+
+.classify_view_box_active{
+	background-color: #4CD964;
+	
+}
+.classify_view{
+	width:100%;
+	height:70px;
+}
+.post_title{
+	width:100%;
+	height:auto;
+	
+}
+.post_article{
+	width:100%;
+	height:200px;
+	background-color:red;
+}
+/*上传照片组件*/
+.upload_sign{
+	padding-left: 20upx;
+	padding-top:10upx;
+}
+.upload_sign image{
+	width:150upx;
+	height:150upx;
+	border-radius: 10px;
+}
+
+/*九宫格*/
+.upload_images_box{
+	display:flex;
+
+	
+	flex-wrap: wrap;
+	margin-left: 4px;
+	margin-right:4px;
+}
+.upload_image_box{/*这个是固定九宫格图片的盒子*/
+	width:calc(( 100% / 4) - 8px)!important;
+	margin:4px;
+	height:176upx;
+	position:relative;
+	
+}
+
+.upload_image{
+	width:100%!important;
+	height:100%!important;
+	border-radius: 10px;
+}
+.deleteimage{
+	width:38upx!important;
+	height:38upx!important;
+	position:absolute;
+	top:6upx;
+	right:6upx
+}
+
+/*上传视频组件*/
+.upload_video_whole_box{
+	padding-bottom: 100px;
+	
+}
+.upload_video_box{
+	margin: 0px 8px;
+	border-radius: 10px;
+	position:relative;
+}
+
+.upload_video_box video{
+	width:100%;
+	height:400upx;
+	border-radius: 10px;
+	
+}
+.deleteVideo{
+	width:50upx;
+	height:50upx;
+	position: absolute;
+	top: 6upx;
+	right:6upx;
+	z-index: 3;
+}
+.post_Button{
+	width:100%;
+	height:100upx;
+	font-size: 40upx;
+	line-height:100upx;
+	text-align: center;
+	position: fixed;
+	bottom:0;
+	z-index: 999;
+	background-color:yellow;
+	margin-top:20px ;
+}
+.post_Button text{
+	display: block;
+}
+
+
+.warp{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 9999;
+}
+.warp_view_upload_state{
+	width:500upx;
+	height:500upx;
+	background-color: #FFFFFF;
+	margin:auto;
+	position:absolute;
+	-webkit-position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.warp_view_upload_state text{
+	text-align: center;
+	margin-top:30upx;
+	font-size: 34upx;
+	color:#666666;
+}

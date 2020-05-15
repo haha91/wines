@@ -1,0 +1,19 @@
+.user_comment_box{
+	width:100%;
+}
+.user_info{
+}
+.user_comment_detail{
+	width:100%;
+	height:auto;
+	
+	word-break: break-all;
+	padding-bottom:5px;
+}
+.red{
+	background-color: rgba(232,122,144,0.15);
+}
+.white{
+	background-color: rgba(238,235,231,0.15);
+}
+

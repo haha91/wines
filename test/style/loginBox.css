@@ -1,0 +1,48 @@
+.warp{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 9999;
+}
+.warp_view{
+	width:500upx;
+	height:500upx;
+	background-color: #FFFFFF;
+	margin:auto;
+	position:absolute;
+	-webkit-position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.warp-text{
+	text-align: center;
+	margin-top:30upx;
+	font-size: 34upx;
+	color:#666666;
+}
+.warp-flex{
+	display: flex;
+	justify-content: space-around;
+	border-top:1upx solid #EEEEEE;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	height:80upx;
+	line-height: 80upx;
+	-webkit-transform:translateZ(0);
+	
+	
+}
+.warp-flex button{
+	border:none;
+	font-size: 30upx;
+}

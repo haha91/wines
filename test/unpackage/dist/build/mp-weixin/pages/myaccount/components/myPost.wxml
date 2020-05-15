@@ -1,0 +1,1 @@
+<view><view class="post"><share-box vue-id="3a6a5e38-1" clientPostData="{{clientPostData}}" urlLocation="{{urlLocation}}" bind:__l="__l"></share-box></view><login-box class="vue-ref" vue-id="3a6a5e38-2" data-ref="jump_out" bind:__l="__l"></login-box></view>

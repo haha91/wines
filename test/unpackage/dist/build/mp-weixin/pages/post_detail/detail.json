@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+    "detail-navigation": "/pages/post_detail/components/detailNavigation",
+    "detail-banner": "/pages/post_detail/components/detailBanner",
+    "detail-text": "/pages/post_detail/components/detailText",
+    "comment": "/function/comment"
+  }
+}

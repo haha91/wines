@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "红酒详情",
+  "usingComponents": {
+    "client_comment": "/function/comment",
+    "post_comment": "/function/upgreat_commit",
+    "load-state": "/components/uni-load-more/uni-load-more"
+  }
+}

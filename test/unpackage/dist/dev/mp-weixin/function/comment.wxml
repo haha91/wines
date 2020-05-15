@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['test',['$0'],['current_comment']]]]]}}" class="user_comment_box" bindtap="__e"><view class="user_info"></view><view class="{{['user_comment_detail',(current_position%2==0)?'white':'',(current_position%2!=0)?'red':'']}}">{{current_comment.userNickName+": "+current_comment.comment_detail}}</view></view></view>

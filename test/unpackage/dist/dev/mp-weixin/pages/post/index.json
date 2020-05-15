@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分享",
+  "usingComponents": {
+    "share-box": "/function/shareBox",
+    "load-state": "/components/uni-load-more/uni-load-more"
+  }
+}

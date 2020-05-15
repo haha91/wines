@@ -1,0 +1,17 @@
+.post_comment_box{
+	width:100%;
+	height:100px;
+	overflow-y:auto ;
+	background-color: #33DD33;
+
+}
+.comment_detail{
+	width:70%;
+	height:100px;
+	float: left;
+}
+.submit_comment_button{
+	width:30%;
+	height:100px;
+	float: left;
+}

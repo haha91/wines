@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "上传酒款",
+  "usingComponents": {
+    "h-mmessages": "/components/HM-messages/HM-messages",
+    "tag_box": "/function/tag_box",
+    "review-box": "/function/review_photo",
+    "input_box": "/function/input_box"
+  }
+}

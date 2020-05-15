@@ -1,0 +1,137 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/myaccount/components/myPost",
+			"style": {
+				"navigationBarTitleText": "我的分享"
+			}
+		},
+		{
+			"path": "pages/post/components/upload",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/myaccount/index",
+			"style": {
+				"navigationBarTitleText": "我的账户"
+			}
+		},
+
+		{
+			"path": "pages/post/index",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		},
+		{
+			"path": "pages/categories/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "门店"
+			}
+		},
+
+
+		{
+			"path": "pages/wine_detail/wine_detail",
+			"style": {
+				"navigationBarTitleText": "红酒详情"
+			}
+		},
+		{
+			"path": "pages/post_detail/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/outside_of_this_app/oustside_view",
+			"style": {
+				"navigationBarTitleText": "外面"
+			}
+		},
+		{
+			"path": "pages/back_manage_system/upload_wines",
+			"style": {
+				"navigationBarTitleText": "上传酒款"
+			}
+		},
+		{
+			"path": "pages/back_manage_system/upload_wine_yard",
+			"style": {
+				"navigationBarTitleText": "上传酒庄"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "九品九",
+		"navigationBarBackgroundColor": "#501426",
+		"backgroundColor": "#eeebe7"
+		
+	},
+
+	"tabBar": {
+		
+		"color": "#f5ba18",
+		"selectedColor": "#F1F1F1",
+		"backgroundColor": "#501426",
+		"borderStyle": "black",
+		
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/homepage.png",
+				"selectedIconPath": "static/icon/homepage_Selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/myaccount/index",
+				"iconPath": "static/icon/myaccount.png",
+				"selectedIconPath": "static/icon/myaccount_Selected.png",
+				"text": "我的"
+			},
+			{
+				"pagePath": "pages/post/index",
+				"iconPath": "static/icon/share.png",
+				"selectedIconPath": "static/icon/share_Selected.png",
+				"text": "分享"
+			},
+			{
+				"pagePath": "pages/categories/index",
+				"iconPath": "static/icon/wine_List.png",
+				"selectedIconPath": "static/icon/wine_List_Selected.png",
+				"text": "分类"
+			}
+
+		]
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "获取你当前位置"
+		}
+
+	},
+	
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

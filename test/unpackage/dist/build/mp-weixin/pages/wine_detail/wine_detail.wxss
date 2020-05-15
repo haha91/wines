@@ -1,0 +1,1 @@
+.wine_detail_img{width:100%;height:200px;background-color:red}.wine_description_box{width:100%;height:200px;background-color:#4cd964;position:relative}.level_box{width:50%;height:calc(100%/4);background-color:#007aff}.level{width:20%;height:100%;float:left}.level image{width:100%;height:100%}#Tannic{margin-top:20px}#Alcohol{margin-top:20px}

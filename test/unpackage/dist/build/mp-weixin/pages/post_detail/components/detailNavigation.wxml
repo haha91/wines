@@ -1,0 +1,1 @@
+<view><view class="nav_box"><block wx:for="{{navigation_type}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><text class="{{[(index==currentIndex)?'actived':'']}}">{{item.category}}</text></block></block></view></view>

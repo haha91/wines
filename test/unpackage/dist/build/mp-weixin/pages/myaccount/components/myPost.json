@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的分享",
+  "usingComponents": {
+    "h-mmessages": "/components/HM-messages/HM-messages",
+    "login-box": "/function/loginBox",
+    "share-box": "/function/shareBox"
+  }
+}
